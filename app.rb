@@ -1,7 +1,5 @@
-class Logger
-	def self.say_something
-		puts "haha"
-	end
-end
+require './logger'
 
-Logger.say_something
+
+Logger.instance.log_something 'blabla'
+Logger.instance.log_something 'blabla2'
